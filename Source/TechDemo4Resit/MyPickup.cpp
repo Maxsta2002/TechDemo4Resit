@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "PickUp.h"
+#include "MyPickup.h"
 
 // Sets default values
-APickUp::APickUp()
+AMyPickup::AMyPickup()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ APickUp::APickUp()
 }
 
 // Called when the game starts or when spawned
-void APickUp::BeginPlay()
+void AMyPickup::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void APickUp::Tick(float DeltaTime)
+void AMyPickup::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 

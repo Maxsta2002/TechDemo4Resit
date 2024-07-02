@@ -4,16 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "PickUp.generated.h"
+#include "MyPickup.generated.h"
 
 UCLASS()
-class TECHDEMO4RESIT_API APickUp : public AActor
+class TECHDEMO4RESIT_API AMyPickup : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	APickUp();
+	AMyPickup();
 
 protected:
 	// Called when the game starts or when spawned
